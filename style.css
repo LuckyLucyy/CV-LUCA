@@ -1,0 +1,99 @@
+body 
+  {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 80px;
+  }
+
+  .navbar {
+    background: rgba(0, 0, 0, 0.8) !important;
+    transition: all 0.3s ease;
+  }
+
+  .navbar-brand {
+    font-weight: bold;
+  }
+
+  .hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('background.jpg') center/cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  .hero img {
+    border: 5px solid white;
+  }
+
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .btn-primary {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    border: none;
+  }
+
+  .btn-primary:hover {
+    background: linear-gradient(45deg, #0056b3, #003d80);
+  
+  
+    padding-top: 70px;
+    font-family: 'Arial', sans-serif;
+  }
+  #about {
+    background: rgba(30, 60, 114, 0.85); 
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  }
+
+  #languages {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+  }
+  
+  #languages h3 {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  #languages p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  
+
+
+  footer {
+    background-color: #222;
+    padding: 3rem;
+    color:#fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3 sec ease;
+    color:white;
+    text-decoration: none;
+
+}
+
+footer a:hover {
+    color: blue;
+
+}
